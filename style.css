@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: rob;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: open;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.container{
+    width: 100%;
+    height: 847px;
+    background-color:hsla(210, 25%, 16%, 0.05)  ;
+    
+}
+
+.header{
+    width:100%;
+    height: 847px;
+    display: grid;
+    justify-content: center;
+
+    }
+
+.nav{
+    width: 1320px;
+    height: 113px;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+.topnav{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+.log{
+  padding-left: 270px;  
+}
+
+.btns{
+    display: flex;
+    column-gap: 22px;
+   padding-right: 20px;
+}
+
+
+.btn1{
+   display: flex;
+   justify-items: baseline;
+   column-gap: 8px;
+
+}
+.accounts{
+    font-size: 18px;
+    font-family: rob;
+    border: none;
+}
+
+.shop{
+    font-size: 18px;
+    font-family: rob;
+    border: none;
+}
+
+.menu{
+   
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsla(0, 0%, 89%, 1);
+    margin-top: 30px;
+
+   
+}
+
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: open;
+    padding: 0;
+    
+}
+
+.product{
+    width: 1226px;
+    height: 562px;
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    
+}
+
+.coll{
+    font-size: 74px;
+    font-family: rob;
+    line-height: 55px;
+}
+
+.par{
+    font-size: 30px;
+    font-family: rob;
+    line-height: 55px;
+}
+
+.shopbut{
+width: 223px;
+height: 72px;
+background-color: hsla(210, 25%, 16%, 1);
+color: white;
+font-size: 29px ;
+font-family: rob;
+padding-left: 26px;
+
+}
+
+
+.svd{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 22px;
+}
+
+.prod{
+    z-index: 3;
+}
+
+.vec{
+    position: absolute;
+    right: 0;
+    margin-top: 365.8px;
+    z-index: 4;
+}
+
+.fram{
+    position: absolute;
+    left: 0;
+    margin-top: 614.62px;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
